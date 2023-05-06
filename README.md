@@ -39,36 +39,3 @@ The following products are required to run the program:
 | Image Processing Toolbox                | 11.0         |
 | Statistics and Machine Learning Toolbox | 11.6         |
 
-## Visualizations
-
-The following are a few visualizations of parts of the detection and recognition pipeline created for the report.
-
-___
-
-<h5 align="center">Skin Model</h5>
-
-![](data/visualizations/skin-model.png)
-
-___
-
-<h5 align="center">Evaluation and Otsu Thresholding</h5>
-
-![](data/visualizations/eval_result.png)
-
-___
-
-<h5 align="center">Face Mask Detection</h5>
-
-![](data/visualizations/face_mask_vis.png)
-
-___
-
-<h5 align="center">Face Triangle Detection and Normalization</h5>
-
-![](data/visualizations/detect_triangle.png)
-
-___
-
-<h5 align="center">Recognition Model</h5>
-
-![](data/visualizations/eigenfaces.png)
