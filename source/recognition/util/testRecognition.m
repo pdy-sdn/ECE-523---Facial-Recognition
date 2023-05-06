@@ -8,7 +8,7 @@ false_negatives = 0;
 for image_file = image_files'
     i = str2num(extractBefore(extractAfter(image_file.name, '_'), '.'));
     id = getId(i);
-    [matched_id, distance] = tnm034(imread([image_file.folder '\' image_file.name]), type);
+    [matched_id, distance] = ECE523(imread([image_file.folder '\' image_file.name]), type);
     if id == matched_id
         correctly_matched = correctly_matched + 1;
         disp([image_file.name ', correctly matched id: ' num2str(matched_id)])
